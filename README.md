@@ -226,6 +226,7 @@ The three codes `fposs`,`fneed`,`fwill` act like different confidence levels, co
   Not sure if i need this....
 - &#x2753; suffix `:explanation of prev/foll`:
   If a sentence gives more information to the topic of a a nerby sentence, like details, definitions or background informations.
+  If a sentence is assigned this suffix, it is very likely that the code is the same as the sentence it gives extra information for.
       
       
 &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7;      
@@ -273,14 +274,24 @@ Apply them with your own good judgment and keep in mind that
 "we are gentle in detecting negative aspects".
 
 
-### 2.11 &#x1F517; Codes for special circumstances 
+### 2.11 Codes for special circumstances 
 
-- code `cruft`:  
+- &#x1F517; code `cruft`:  
   This sentence is not part of the abstract.
-  It is garbage that should have been removed during the preparation of the abstract files.
-- code `X`:  
+  It is garbage that should have been removed during the preparation of the abstract files (i.e. page headings or numbers).
+- &#x1F517; code `X`:  
   Undecided class. The sentence needs to be revisited and classified;
   consider using `fgrep {{X}}` to find these cases.
   Use `X` only rarely and only when you cannot _yet_ make up your mind.
   Such a code will likely result in a discrepancy with your fellow coder.
   It must always eventually be replaced with a proper code.
+- code `new`:
+  Use this code for sentences where you think a new code is needed. Note the needed code below in the comments.
+      
+      
+      
+## Memos
+
+      preselecten wir studien? Weil ienige Studien sind wirklich wirklich schwer zu codieren FirFirRos22 zB und auch AriHadLur22 sind eifnach schlecht geschrieben und man weiß nicht wo den Autoren der Kopf steht beim lesen... sowas würde die Coding arbeit suuuper doll verzögern bzw in die Länge ziehen für einzelne unglückliche studenten. Lösungsvorschlag - Artikel bei denen die abstracts bereits eher schlecht geschrieben wirken weglassen. Denn es kommt ja noch dazu, dass die Studenten selber eher nicht geübt sind viele wissenschaftliche Artikel zu lesen, was sie eh schon veralngsamt. 
+Und wenn ich dann kleine blöcke an chrakterisierungen gefunden habe, bin ich mir sicher diese gibt es in solchen artikeln kaum oder nur sehr sehr schwer erkennbar. 
+Mir ist beim Coden auf jeden Fall aufgefallen, dass solche Codes wie "unsinnige Grammatik" "unlogische Formulierung" etc nur selten einzeln in Artikeln auftreteten, sondern meist sehr häufig in ein einem Artikel oder garnicht. Dann kann ein solcher Artikel auch durchaus mal fast einen ganzen Tag benötigen um gecoded zu werden, während sonst 5 in der Zeit geschafft werden....
