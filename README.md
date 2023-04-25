@@ -1,5 +1,7 @@
 # Conclusions Master Thesis - CodeBook.alpha
 
+&#x1F517; - this section or part is identical to the qabstracts codebook
+
 &#x1F4CC; - reminder for smaller tasks. May mean that an information is still missing/unclear or that I need to look something up
 
 &#x1F6A7; - in construction, this is a code/part I've started to work on but that is not quite done yet
@@ -57,7 +59,7 @@ The common flow:
   The content of an `artifact` is often only described in a superficial way (meaning no actual learnings are explained, `teaser`).
   If an `artifact` is described the above flow is no longer working until the description is over.
 
-**The flow guides the coding**: During coding, we will expect the next sentence
+&#x1F517;**The flow guides the coding**: During coding, we will expect the next sentence
 to be either part of the same stretch or the beginning of one
 that the archetype describes as a possible successor.  
 Only if the next sentence clearly defies any such interpretation will we consider
@@ -66,12 +68,12 @@ a different code for it.
 
 ### 2.2 Core codes for the turning points
 
-The turning points are the most informative sentences
-in an abstract: 
+&#x1F4CC;The turning points are the most informative sentences
+in a conclusion: 
 The first describes what the study is about, 
 the second describes what it found.
 
-From _Introduction_ to _Study Description_:
+&#x1F517;From _Introduction_ to _Study Description_:
 - code `objective`:  
   one or more of this work's 
   top-level research goals,
@@ -106,7 +108,7 @@ From _Study Description_ to _Outlook_:
   Information about the larger topic area of the work, the state-of-the-art,
   related work, what is known, definitions. This occurs sometimes, if it does it often occurs in blocks with several sentences only about `background`.
    <ich hab related work bisher eigen codiert, brauche ich das so oder nicht?>
-- code `gap`:  
+- &#x1F517; code `gap`:  
   A statement of what is not yet known or 
   what is so far difficult to achieve in research or in practice
   which directly leads over to the topic of the present work (the `objective`).
@@ -167,30 +169,68 @@ The three codes `fposs`,`fneed`,`fwill` act like different confidence levels, co
 - code `fwork`:  
   Explicit statement about what future research the authors intend to do.
       
+      
+### &#x2753; 2.6 Special code/stretch `artifact`
+      &#x2753; &#x2753; &#x2753; &#x2753; &#x2753;
+      
+      see Miro, I have so many unanswered questions here... Thing is an `artifact` makes my whole flow/archetype fall out. 
+      I'll have to look into this again to see if there are similarities between _Artifact_ stretches. Since `artifact` seldomly occurs alone.
+      Now I also have the problem, how to code it. Is it better to use a own code or just a suffix? what exactly is an `àrtifact`?
+      Should I code the information wrapped into the artifact and just make it visible this is an artiofact?
+      Also (unrelated) I DO KNOW, that having an artifact in the articale does not make it impossible to deliver informative conclusions next to the
+      artifact description / give examples that are informative an have conclusion character. So how important is it to code informations behind the artifact? But I do think it is important, bc if there are informations that are like non obvious then there must be a conclusion in the article an i even know where it is - in the artifact. And at that point I can assume that the authors could've written an informative conclusion in the conclusion but chose not to...
+      
+      &#x2753; &#x2753; &#x2753; &#x2753; &#x2753;
+      
+      
+### &#x1F6A7; 2.7 Headings of Conclusions
 
-### 2.6 Less common codes - &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7;
+      - code `hconclusion`:
+         If the heading of the conclusion-section includes "conclusion".
+      - code `hconclusionS`
+         If the heading of the conclusion-section includes "conclusions".
+      - code `hnoconclusion`
+         If the heading of the conclusion section neither includes "conclusion" nor "conclusion".
+      - suffix `:+`
+         If the heading of the conclusion sections contains somthing different than "conclusion" or "conclusions". 
+         (I.e. "Conclusion and Future Work" would coded as &#x1F6A7; `conclusion:+futurework`)
+      - suffix `:sub`
+         If the conclusion-section isn't only one whole section but a section with subsections. 
+      
+      
+### 2.8 Less common codes
 
-- code `limitation`:  
-  information about limitations, threats to validity, and the like
-  of the study or its results.
-- code `resourcepointer`:  
+- &#x1F517; code `limitation`:  
+  information about limitations, threats to validity, and the like of the study or its results.
+- &#x1F517; code `resourcepointer`:  
   A reference to a concrete external resource such as 
   a software artifact, materials package, data package, appendix,
   or similar item.
+- &#x1F6A7; code `defensive` or suffix `:def`:  
+  This stands for "defensive". It is used on sentences which deny generalizations or play down results as "minimal".
+- &#x2753; code `justification`:
+  A sentence that tries to make the articles results seem better. (I.e. compare it with previous studies that did worse.)
       
       
-### 2.? Suffixes (for conclusions) and others) - maybe make two sections out of this
+### 2.9 Suffixes 
 
-### 2.? Less common codes
+- suffix `:t`:  
+  A teaser `:t` is a superficial description which lets the reader know of the existence of some information,
+  but does not reveal the information in the conclusion-section itself.
+  Often found when `artifacts` are described. (&#x1F6A7; or the conclusion is treated as a summary of the paper)
+- suffix `:x`:
+  This marks a unexplained abbreviation. Unexplained means it is not explained or written out in the conclusion-section itself.
+- suffix `:y`:
+  This marks a explained abbreviation. Explained means it is explained or written out in the conclusion-section itself.
+- &#x2753; suffix `:raise importance`:
+  Not sure if i need this....
+- &#x2753; suffix `:explanation of prev/foll`:
+  If a sentence gives more information to the topic of a a nerby sentence, like details, definitions or background informations.
+      
+      
+&#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7;      
 
-- code `abc`:  
-  description
-  If position and phrasing allow it to be considered `background`, `objective`, or `conclusion`, use these.
-- code `abc`:  
-  description
-
-
-### 2.9 Extra codes (TBD)
+### &#x1F517; 2.10 Extra codes (TBD) &#x2753;
 
 These codes can never occur alone, only in conjunction with one of the others.
 They start with a dash to signal this and should be given last. 
@@ -233,7 +273,7 @@ Apply them with your own good judgment and keep in mind that
 "we are gentle in detecting negative aspects".
 
 
-### 2.10 Codes for special circumstances (maybe even keep as is)
+### 2.11 &#x1F517; Codes for special circumstances 
 
 - code `cruft`:  
   This sentence is not part of the abstract.
