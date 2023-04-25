@@ -45,7 +45,7 @@ The common flow:
    _Outlook
 
 **exceptions to the flow**: Lists and artifacts. 
-- Lists are often introduced as "contributions". Typically these are a mix of outcomes(`result`,`conclusion` and _Outlook_ codes) with no certain structure.
+- Lists are often introduced as "contributions". Typically these are a mix of outcomes(`result`,`conclusion` and _Outlook_ codes) with no certain structure. <FloMorZha und BalRal>
 - &#x2753; TBD artifacts are XXXX . Artifacts typically occur after _Introduction_ and _Study Description_.
   The content of artifacts is often only described in a superficial way (meaning no actual learnings are explained, `teaser`).
   If an artifacts is described the above flow is no longer working until the artifact description is over.
