@@ -51,11 +51,11 @@ The common flow:
    If the conclusion has multiple subsections then _Outlook_ may be found in a seperate subsection.
    _Outlook
 
-**exceptions to the flow**: Lists and artifacts. 
+**exceptions to the flow**: List and `artifact`. 
 - Lists are often introduced as "contributions". Typically these are a mix of outcomes(`result`,`conclusion` and _Outlook_ codes) with no certain structure. <FloMorZha und BalRal>
-- &#x1F4CC; TBD artifacts are XXXX . Artifacts typically occur after _Introduction_ and _Study Description_.
-  The content of artifacts is often only described in a superficial way (meaning no actual learnings are explained, `teaser`).
-  If an artifacts is described the above flow is no longer working until the artifact description is over.
+- &#x1F4CC; `artifact` are XXXX . `artifact` typically occur after _Introduction_ and _Study Description_.
+  The content of an `artifact` is often only described in a superficial way (meaning no actual learnings are explained, `teaser`).
+  If an `artifact` is described the above flow is no longer working until the description is over.
 
 **The flow guides the coding**: During coding, we will expect the next sentence
 to be either part of the same stretch or the beginning of one
@@ -98,12 +98,90 @@ From _Study Description_ to _Outlook_:
       `:1.5` stands in between `:1` and `:2`. It catches all conclusions who are not perfetly firm, but also don't make an obvious effort te be agrereable, but a rather small one.
        `:3` shows the highest confidence and should be used, if authors make their conclusions seem overly true. (not sure abt this one...)
        &#x2753;is this the right place for this? `:0` is actually never used on `conclusions`....but on `results` that could've been `conclusions`
-      
   
+   
+### 2.3 Core codes for _Introduction_
 
+- &#x1F6A7; code `background`:  
+  Information about the larger topic area of the work, the state-of-the-art,
+  related work, what is known, definitions. This occurs sometimes, if it does it often occurs in blocks with several sentences only about `background`.
+   <ich hab related work bisher eigen codiert, brauche ich das so oder nicht?>
+- code `gap`:  
+  A statement of what is not yet known or 
+  what is so far difficult to achieve in research or in practice
+  which directly leads over to the topic of the present work (the `objective`).
+- code `need`:  
+  A postulate about what research needs to be performed
+  which directly leads over to the topic of the present work (the `objective`). Occurs almost never.
+      
+
+### 2.4 Core codes for _Study Description_
+
+- code `method`:  
+  information about the approach or setup of an empirical (&#x1F4CC; or possibly purely mathematical) study.
+- &#x1F6A7;code `design`&#x1F6A7; &#x2753;:  Kann fast komplett raus, glaube ich - habe keinen Code design göaube ich?
+  To be used only if the article is artifact-centric instead of purely empirical, i.e., 
+  if the article's main contribution is an artifact or the knowledge how to build it,
+  not the empirical results obtained with its help.
+  A `design` statement provides information about the design, design process, and designed features of 
+  an artifact, such as software, a process, or a method.  
+  We call articles where the abstract contains a design statement "design articles"
+  (or artifact-centric articles). 
+  - Such articles will typically also contain some empirical contribution and `method`/`result` are used
+    for its description.  
+  - The "designed features" mentioned above are known at design time
+    and classified as `design`.
+    This is in contrast to emerging features,
+    which can only be determined empirically and are classified as `result`.
+  - Top-level design _goals_ (and non-goals) are classified as `objective`.
+    Subordinate design goals and non-goals are classified as `design`.
+  - Statements about the design of subordinate artifacts, 
+    that do not represent the main contribution but rather only aid an empirical study, 
+    are classified as `method`.
+- code `result:ct`:  
+  Information about the immediate outcome of a study in the form of empirical results.
+  `result` is often described in past tense and can be recognized by words like "observed", "&#x1F4CC;" 
+  &#x1F6A7;`:c` signalises, that this result could've been made into a conclusion if formulated differently. &#x1F6A7;
+   This can be the case because conclusion-like information is named, but not shown (which would mean information is only superficially described, `:t`) 
+   or because there is no generalization happening. 
+  &#x1F6A7;See `claim:iu`.
+- code `summary`: &#x2753; I have this code, but it's unclear in my coding rn &#x2753;
+  A statement that summarizes several results, but does not provide new information.
+  A summary statement does not generalize beyond the immediate results.
+      
+      
+### 2.5 Core codes for _Outlook_
+      
+The three codes `fposs`,`fneed`,`fwill` act like different confidence levels, confidence increasing from left to right.
+      
+- code `fposs`:  
+  Statement about what future research is now possible (i.e., could now be done, by whoever).  
+  &#x2753; Note: Statements what practitioners can now do are `conclusion`! - WHY &#x2753;
+- code `fneed`:  
+  Statement about what future research should be done (by whoever).
+  Also used when authors "hope" (etc.) for certain research to be done. &#x2753; ich have hope immer zu fposs zugeteilt - villeicht habe! ich die codes ander genutzt....&#x2753;
+- code `fwill`: 
+  Statement about what will happen in the future. 
+- code `fgap`:  
+  Statement about what is still not known after the study.
+- code `fwork`:  
+  Explicit statement about what future research the authors intend to do.
+      
+
+### 2.6 Less common codes - &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7;
+
+- code `limitation`:  
+  information about limitations, threats to validity, and the like
+  of the study or its results.
+- code `resourcepointer`:  
+  A reference to a concrete external resource such as 
+  a software artifact, materials package, data package, appendix,
+  or similar item.
+      
+      
 ### 2.? Suffixes (for conclusions) and others) - maybe make two sections out of this
 
-### 2.7 Less common codes
+### 2.? Less common codes
 
 - code `abc`:  
   description
