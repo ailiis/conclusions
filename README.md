@@ -1,5 +1,11 @@
 # Conclusions Master Thesis - CodeBook.alpha
 
+&#x1F4CC; - reminder for smaller tasks. May mean that an information is still missing/unclear or that I need to look something up
+
+&#x1F6A7; - in construction, this is a code/part I've started to work on but that is not quite done yet
+&#x2753; - somthing that's just barely there, very unclear and still needs a lot of work
+
+
 ## 2. Codebook: Codes for sentences
 
 
@@ -46,7 +52,7 @@ The common flow:
 
 **exceptions to the flow**: Lists and artifacts. 
 - Lists are often introduced as "contributions". Typically these are a mix of outcomes(`result`,`conclusion` and _Outlook_ codes) with no certain structure. <FloMorZha und BalRal>
-- &#x2753; TBD artifacts are XXXX . Artifacts typically occur after _Introduction_ and _Study Description_.
+- &#x1F4CC; TBD artifacts are XXXX . Artifacts typically occur after _Introduction_ and _Study Description_.
   The content of artifacts is often only described in a superficial way (meaning no actual learnings are explained, `teaser`).
   If an artifacts is described the above flow is no longer working until the artifact description is over.
 
@@ -57,7 +63,42 @@ Only if the next sentence clearly defies any such interpretation will we conside
 a different code for it.
 
 
-### 2.2
+### 2.2 Core codes for the turning points
+
+The turning points are the most informative sentences
+in an abstract: 
+The first describes what the study is about, 
+the second describes what it found.
+
+From _Introduction_ to _Study Description_:
+- code `objective`:  
+  one or more of this work's 
+  top-level research goals,
+  specific top-level research interests, or
+  top-level research questions.  
+  Objectives sentences often contain material that is ambiguous as goal-or-method
+  or as goal-or-design. In those cases, assign two codes only if there is no 
+  method (or design) information elsewhere in the abstract.
+  If the method (or design) information is too specific and concrete to be a goal,
+  assign two codes in any case.
+
+From _Study Description_ to _Outlook_:
+- code `conclusion`:  
+  A take-home message that is less specific than one or more results.
+  Usually a generalization from the results, sometimes a non-obvious existence proof statement(&#x1F4CC;seen from after/before the study).
+  A conclusion is often written in present tense, never in past tense. (&#x1F4CC;CHECK AGAIN)
+- `the suffixes for `conclusion:g/e:(p/r):0/1/1.5/2/3:` describe:
+   - what kind of `conclusion` it is: either a generalization (`:g`) or a an existence proof (`:e`).
+   - whom the `conclusion` is for. This Code is only used if the information of the sentence is
+     clearly meant for only researchers `:r` or practitioners `:p`.
+   - how confident the authors express their `conclusion`. &#x1F6A7;
+         - `:1` stands for the lowest confidence. This suffix is used when there are words("could", "can", "maybe", ...) that make an obvious effort to make the conclusion easy to agree. 
+         - `:2` stands for a rather neutral `conclusion`, which does not try to make it more agreeable or hype it up. The conclusion is firm.
+         - `:1.5` stands in between `:1` and `:2`. It catches all conclusions who are not perfetly firm, but also don't make an obvious effort te be agrereable, but a rather small one.
+         - `:3` shows the highest confidence and should be used, if authors make their conclusions seem overly true. (not sure abt this one...)
+         - &#x2753;is this the right place for this? `:0` is actually never used on `conclusions`....but on `results` that could've been `conclusions`
+      
+  
 
 ### 2.? Suffixes (for conclusions) and others) - maybe make two sections out of this
 
