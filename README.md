@@ -3,6 +3,7 @@
 &#x1F4CC; - reminder for smaller tasks. May mean that an information is still missing/unclear or that I need to look something up
 
 &#x1F6A7; - in construction, this is a code/part I've started to work on but that is not quite done yet
+
 &#x2753; - somthing that's just barely there, very unclear and still needs a lot of work
 
 
@@ -92,11 +93,11 @@ From _Study Description_ to _Outlook_:
    - whom the `conclusion` is for. This Code is only used if the information of the sentence is
      clearly meant for only researchers `:r` or practitioners `:p`.
    - how confident the authors express their `conclusion`. &#x1F6A7;
-         - `:1` stands for the lowest confidence. This suffix is used when there are words("could", "can", "maybe", ...) that make an obvious effort to make the conclusion easy to agree. 
-         - `:2` stands for a rather neutral `conclusion`, which does not try to make it more agreeable or hype it up. The conclusion is firm.
-         - `:1.5` stands in between `:1` and `:2`. It catches all conclusions who are not perfetly firm, but also don't make an obvious effort te be agrereable, but a rather small one.
-         - `:3` shows the highest confidence and should be used, if authors make their conclusions seem overly true. (not sure abt this one...)
-         - &#x2753;is this the right place for this? `:0` is actually never used on `conclusions`....but on `results` that could've been `conclusions`
+     `:1` stands for the lowest confidence. This suffix is used when there are words("could", "can", "maybe", ...) that make an obvious effort to make the conclusion easy to agree. 
+      `:2` stands for a rather neutral `conclusion`, which does not try to make it more agreeable or hype it up. The conclusion is firm.
+      `:1.5` stands in between `:1` and `:2`. It catches all conclusions who are not perfetly firm, but also don't make an obvious effort te be agrereable, but a rather small one.
+       `:3` shows the highest confidence and should be used, if authors make their conclusions seem overly true. (not sure abt this one...)
+       &#x2753;is this the right place for this? `:0` is actually never used on `conclusions`....but on `results` that could've been `conclusions`
       
   
 
