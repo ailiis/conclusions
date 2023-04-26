@@ -1,8 +1,13 @@
 # Conclusions Master Thesis - CodeBook.alpha
 
+Smileys are used in front of the sentence/paragraph they should signalise something for. 
+Sometimes there are two of them around one sentence, the sentence inside these signs is a ToDo or Memo for the task, but what follows the second smiley then is still the sentence or paragraph in question.
+
 &#x1F517; - this section or part is identical to the qabstracts codebook
 
-&#x1F4CC; - reminder for smaller tasks. May mean that an information is still missing/unclear or that I need to look something up
+&#x1F440; - this needs to be revisited. I am not happy with the definition, description, grammar, wording or whatever
+
+&#x1F4CC; - reminder for ToDos. May mean that an information is still missing/unclear or that I need to look something up
 
 &#x1F6A7; - in construction, this is a code/part I've started to work on but that is not quite done yet
 
@@ -12,11 +17,11 @@
 ## 2. Codebook: Codes for sentences
 
 
-### 2.1 The conclusion-sections commmon flow
+### 2.1 The conclusion-sections commmon flow <>
 
 Conclusion-sections are similar to the abstracts archetype, the sequence of stretches is similar, but the occurence of stretches is different. 
 
-The following will be defined in detail in subsequent sections.
+The following codes will be defined in detail in subsequent sections.
 
 The common flow: 
 
@@ -36,12 +41,7 @@ The common flow:
    postulates a need for a certain research (`need`).
 4. For an empirical article (which are the only ones we are looking at), the _Study Description_ often begins with
    method description (`method`), followed by results description (`result`).
-4.5 `result` is sometimes seen out of _Study Description_. 
-   Sometimes `result` slides into `conclusion` and makes the turning point longer. 
-   A `result` in this position typically explains a conclusion.
-   Sometimes `result` is found in _Outlook_ and most of the times this means the authors intended a "take-home-message",
-   but did not take the  last step to generalize and make it a `conclusion`.
-5. _Outlook_ talks about future research and states 
+ 5. _Outlook_ talks about future research and states 
    what could now be done (`fposs`, for future possibilities),
    what should now be done (`fneed`),
    what will most definetly happen (`fwill`)
@@ -51,27 +51,28 @@ The common flow:
    Several of these may occur, in no particular order. 
    This stretch always ends the conclusions. There is only one exception when _Outlook_ does not end the conclusion:
    If the conclusion has multiple subsections then _Outlook_ may be found in a seperate subsection.
-   _Outlook
+ 
 
-**exceptions to the flow**: List and `artifact`. 
+**exceptions to the flow**: Lists, `artifact` and `result`. 
 - Lists are often introduced as "contributions". Typically these are a mix of outcomes(`result`,`conclusion` and _Outlook_ codes) with no certain structure. <FloMorZha und BalRal>
-- &#x1F4CC; `artifact` are XXXX . `artifact` typically occur after _Introduction_ and _Study Description_.
+- &#x1F4CC; An `artifact` can be a guide, a taxonomy, a method. If it is a document, it is autonomous from the article. `artifact` typically occur after _Introduction_ and _Study Description_.
   The content of an `artifact` is often only described in a superficial way (meaning no actual learnings are explained, `teaser`).
-  If an `artifact` is described the above flow is no longer working until the description is over.
+  If an `artifact` is described the above flow is no longer working until the description part is over.
+- `result` is sometimes seen out of _Study Description_. 
+   Sometimes `result` slides into `conclusion` and makes the turning point longer. 
+   A `result` in this position typically explains a conclusion.
+   Sometimes `result` is found in _Outlook_ and most of the times this means the authors intended a "take-home-message",
+   but did not take the  last step to generalize and make it a `conclusion`.
 
-&#x1F517;**The flow guides the coding**: During coding, we will expect the next sentence
+
+**The flow guides the coding**: During coding, we will expect the next sentence
 to be either part of the same stretch or the beginning of one
 that the archetype describes as a possible successor.  
 Only if the next sentence clearly defies any such interpretation will we consider
-a different code for it.
+a different code for it. Also, keep the exceptions in mind.
 
 
 ### 2.2 Core codes for the turning points
-
-&#x1F4CC;The turning points are the most informative sentences
-in a conclusion: 
-The first describes what the study is about, 
-the second describes what it found.
 
 &#x1F517;From _Introduction_ to _Study Description_:
 - code `objective`:  
@@ -87,19 +88,19 @@ the second describes what it found.
 
 From _Study Description_ to _Outlook_:
 - code `conclusion`:  
-  A take-home message that is less specific than one or more results.
-  Usually a generalization from the results, sometimes a non-obvious existence proof statement(&#x1F4CC;seen from after/before the study).
-  A conclusion is often written in present tense, never in past tense. (&#x1F4CC;CHECK AGAIN)
-- `the suffixes for `conclusion:g/e:(p/r):0/1/1.5/2/3:` describe:
-   - what kind of `conclusion` it is: either a generalization (`:g`) or a an existence proof (`:e`).
-   - whom the `conclusion` is for. This Code is only used if the information of the sentence is
-     clearly meant for only researchers `:r` or practitioners `:p`.
-   - how confident the authors express their `conclusion`. &#x1F6A7;
-     `:1` stands for the lowest confidence. This suffix is used when there are words("could", "can", "maybe", ...) that make an obvious effort to make the conclusion easy to agree. 
+  &#x1F517; A take-home message that is less specific than one or more results.
+  Usually a generalization from the results, sometimes a non-obvious existence proof statement, which is non-obvious based on pre-study knowledge.
+  A conclusion is written in present tense.
+- conclusion suffixes `conclusion:g` XOR `conclusion:e` describe if the conclusion is a generalization (`:g`) or a an existence proof (`:e`).
+- &#x1F440; conclusion suffixes `conclusion:r` XOR `conclusion:p` describe whom the `conclusion` is for.
+   This Code is only used if the information of the sentence is clearly meant for only researchers (`:r`) or practitioners (`:p`).
+- &#x1F6A7;conclusion suffixes `conclusion:1` XOR `conclusion:1.5` XOR `conclusion:2` XOR `conclusion:3` 
+   mark how confident the authors express their `conclusion`.
+  `:1` stands for the lowest confidence. This suffix is used when there are words("could", "can", "maybe", ...) that make an obvious effort to make the conclusion easy to agree. 
       `:2` stands for a rather neutral `conclusion`, which does not try to make it more agreeable or hype it up. The conclusion is firm.
       `:1.5` stands in between `:1` and `:2`. It catches all conclusions who are not perfetly firm, but also don't make an obvious effort te be agrereable, but a rather small one.
-       `:3` shows the highest confidence and should be used, if authors make their conclusions seem overly true. (not sure abt this one...)
-       &#x2753;is this the right place for this? `:0` is actually never used on `conclusions`....but on `results` that could've been `conclusions`
+       `:3` shows the highest confidence and should be used, if authors make their conclusions seem overly true. (most unsure abt this one...) 
+   (&#x2753; The definition is not done + idk if this suffix is needed &#x2753; Additionally there is a suffix `result:0` used on `result`, which is used for a result who could have been a `conclusion`.)
   
    
 ### 2.3 Core codes for _Introduction_
@@ -108,47 +109,30 @@ From _Study Description_ to _Outlook_:
   Information about the larger topic area of the work, the state-of-the-art,
   related work, what is known, definitions. This occurs sometimes, if it does it often occurs in blocks with several sentences only about `background`.
    <ich hab related work bisher eigen codiert, brauche ich das so oder nicht?>
-- &#x1F517; code `gap`:  
+- &#x1F517; less common code `gap`:  
   A statement of what is not yet known or 
   what is so far difficult to achieve in research or in practice
   which directly leads over to the topic of the present work (the `objective`).
-- code `need`:  
+- &#x1F517; less common code `need` (found in _Introduction_):  
   A postulate about what research needs to be performed
-  which directly leads over to the topic of the present work (the `objective`). Occurs almost never.
+  which directly leads over to the topic of the present work (the `objective`). 
       
 
 ### 2.4 Core codes for _Study Description_
 
 - code `method`:  
-  information about the approach or setup of an empirical (&#x1F4CC; or possibly purely mathematical) study.
-- &#x1F6A7;code `design`&#x1F6A7; &#x2753;:  Kann fast komplett raus, glaube ich - habe keinen Code design göaube ich?
-  To be used only if the article is artifact-centric instead of purely empirical, i.e., 
-  if the article's main contribution is an artifact or the knowledge how to build it,
-  not the empirical results obtained with its help.
-  A `design` statement provides information about the design, design process, and designed features of 
-  an artifact, such as software, a process, or a method.  
-  We call articles where the abstract contains a design statement "design articles"
-  (or artifact-centric articles). 
-  - Such articles will typically also contain some empirical contribution and `method`/`result` are used
-    for its description.  
-  - The "designed features" mentioned above are known at design time
-    and classified as `design`.
-    This is in contrast to emerging features,
-    which can only be determined empirically and are classified as `result`.
-  - Top-level design _goals_ (and non-goals) are classified as `objective`.
-    Subordinate design goals and non-goals are classified as `design`.
-  - Statements about the design of subordinate artifacts, 
-    that do not represent the main contribution but rather only aid an empirical study, 
-    are classified as `method`.
+  information about the approach or setup of an empirical (&#x1F440; or possibly purely mathematical) study.
+      This also includes artifacts like small programs built to aid the study.
 - code `result:ct`:  
   Information about the immediate outcome of a study in the form of empirical results.
-  `result` is often described in past tense and can be recognized by words like "observed", "&#x1F4CC;" 
-  &#x1F6A7;`:c` signalises, that this result could've been made into a conclusion if formulated differently. &#x1F6A7;
-   This can be the case because conclusion-like information is named, but not shown (which would mean information is only superficially described, `:t`) 
+  `result` is often described in past tense and can sometimes be recognized by words like "observed" or "found".
+      <even though "result(s)" is often seen there too it is often seen with conclusions too which makes this a not so good indicator word>
+  &#x1F6A7;`:0` signalises, that this result could've been made into a conclusion if formulated differently.
+   &#x1F440; This can be the case because conclusion-like information is named, 
+         but not shown (which would mean information is only superficially described, `:t`) 
    or because there is no generalization happening. 
-  &#x1F6A7;See `claim:iu`.
-- code `summary`: &#x2753; I have this code, but it's unclear in my coding rn &#x2753;
-  A statement that summarizes several results, but does not provide new information.
+- &#x2753; I have this code, but it's unclear in my coding rn &#x2753; code `summary`:
+  A statement that summarizes several results, but does not provide new information. <like new information desciribing whathas been done or like new information with actual take home value>
   A summary statement does not generalize beyond the immediate results.
       
       
@@ -158,16 +142,16 @@ The three codes `fposs`,`fneed`,`fwill` act like different confidence levels, co
       
 - code `fposs`:  
   Statement about what future research is now possible (i.e., could now be done, by whoever).  
-  &#x2753; Note: Statements what practitioners can now do are `conclusion`! - WHY &#x2753;
+  &#x1F440; Note: Statements what practitioners can now do are `conclusion`!
 - code `fneed`:  
   Statement about what future research should be done (by whoever).
-  Also used when authors "hope" (etc.) for certain research to be done. &#x2753; ich have hope immer zu fposs zugeteilt - villeicht habe! ich die codes ander genutzt....&#x2753;
+  &#x1F440;hope gehört für mich zufposs, weil es weder initiative der autoren ist noch von ihnen direkt empfohlen wird. &#x1F440; Also used when authors "hope" (etc.) for certain research to be done. 
 - code `fwill`: 
-  Statement about what will happen in the future. 
+  Statement about what will happen in the future, the authors are certain about.
 - code `fgap`:  
   Statement about what is still not known after the study.
 - code `fwork`:  
-  Explicit statement about what future research the authors intend to do.
+  Explicit statement about what future research or research related tasks the authors intend to do.
       
       
 ### &#x2753; 2.6 Special code/stretch `artifact`
@@ -179,6 +163,7 @@ The three codes `fposs`,`fneed`,`fwill` act like different confidence levels, co
       Should I code the information wrapped into the artifact and just make it visible this is an artiofact?
       Also (unrelated) I DO KNOW, that having an artifact in the articale does not make it impossible to deliver informative conclusions next to the
       artifact description / give examples that are informative an have conclusion character. So how important is it to code informations behind the artifact? But I do think it is important, bc if there are informations that are like non obvious then there must be a conclusion in the article an i even know where it is - in the artifact. And at that point I can assume that the authors could've written an informative conclusion in the conclusion but chose not to...
+         Also this code is in fact similar to the design code. But only in some cases. A i,portant difference is, that design is supposed to be in the _Study description_ while artifacts that could be designs are often found in between conclusions and future work.
       
       &#x2753; &#x2753; &#x2753; &#x2753; &#x2753;
       
@@ -200,8 +185,8 @@ The three codes `fposs`,`fneed`,`fwill` act like different confidence levels, co
       
 ### 2.8 Less common codes
 
-- &#x1F517; code `limitation`:  
-  information about limitations, threats to validity, and the like of the study or its results.
+- code `limitation`:  
+  &#x1F517;Information about limitations, threats to validity, and the like of the study or its results. If seen, typically after `conclusion`.
 - &#x1F517; code `resourcepointer`:  
   A reference to a concrete external resource such as 
   a software artifact, materials package, data package, appendix,
