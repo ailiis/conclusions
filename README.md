@@ -107,7 +107,7 @@ From _Study Description_ to _Outlook_:
 
 - &#x1F6A7; code `background`:  
   Information about the larger topic area of the work, the state-of-the-art,
-  related work, what is known, definitions. This occurs sometimes, if it does it often occurs in blocks with several sentences only about `background`.
+  related work, the problem to be solved, what is known and definitions. This occurs sometimes, if it does it often occurs in blocks with several sentences only about `background`.
    <ich hab related work bisher eigen codiert, brauche ich das so oder nicht?>
 - &#x1F517; less common code `gap`:  
   A statement of what is not yet known or 
@@ -121,7 +121,8 @@ From _Study Description_ to _Outlook_:
 ### 2.4 Core codes for _Study Description_
 
 - code `method`:  
-  information about the approach or setup of an empirical (&#x1F440; or possibly purely mathematical) study.
+  Information about the approach or setup of an empirical (&#x1F440; or possibly purely mathematical) study,
+  what were the steps taken to reach the objective.
       This also includes artifacts like small programs built to aid the study.
 - code `result:ct`:  
   Information about the immediate outcome of a study in the form of empirical results.
@@ -193,7 +194,7 @@ Also this code is in fact similar to the design code. But only in some cases. A 
 - &#x1F6A7; code `defensive` or suffix `:def`:  
   This stands for "defensive". It is used on sentences which deny generalizations or play down results as "minimal".
 - &#x2753; code `justification`:
-  A sentence that tries to make the articles results seem better. (I.e. compare it with previous studies that did worse.)
+  A sentence which exists to make the articles results seem better or more relevant. (I.e. compare it with previous studies that did worse.)
       
       
 ### 2.9 Suffixes 
