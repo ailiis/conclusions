@@ -154,7 +154,7 @@ The three codes `fposs`,`fneed`,`fwill` act like different confidence levels, co
   Explicit statement about what future research or research related tasks the authors intend to do.
       
       
-### &#x2753; 2.6 Special code/stretch `artifact`
+### 2.6 Special code/stretch `artifact`
       &#x2753; &#x2753; &#x2753; &#x2753; &#x2753;
       
       see Miro, I have so many unanswered questions here... Thing is an `artifact` makes my whole flow/archetype fall out. 
