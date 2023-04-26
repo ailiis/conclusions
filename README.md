@@ -154,33 +154,32 @@ The three codes `fposs`,`fneed`,`fwill` act like different confidence levels, co
   Explicit statement about what future research or research related tasks the authors intend to do.
       
       
-### 2.6 Special code/stretch `artifact`
-      &#x2753; &#x2753; &#x2753; &#x2753; &#x2753;
-      
-      see Miro, I have so many unanswered questions here... Thing is an `artifact` makes my whole flow/archetype fall out. 
-      I'll have to look into this again to see if there are similarities between _Artifact_ stretches. Since `artifact` seldomly occurs alone.
-      Now I also have the problem, how to code it. Is it better to use a own code or just a suffix? what exactly is an `àrtifact`?
-      Should I code the information wrapped into the artifact and just make it visible this is an artiofact?
-      Also (unrelated) I DO KNOW, that having an artifact in the articale does not make it impossible to deliver informative conclusions next to the
-      artifact description / give examples that are informative an have conclusion character. So how important is it to code informations behind the artifact? But I do think it is important, bc if there are informations that are like non obvious then there must be a conclusion in the article an i even know where it is - in the artifact. And at that point I can assume that the authors could've written an informative conclusion in the conclusion but chose not to...
-         Also this code is in fact similar to the design code. But only in some cases. A i,portant difference is, that design is supposed to be in the _Study description_ while artifacts that could be designs are often found in between conclusions and future work.
-      
-      &#x2753; &#x2753; &#x2753; &#x2753; &#x2753;
+### &#x2753; 2.6 Special code/stretch `artifact`
+         
+&#x2753; &#x2753; &#x2753; &#x2753; &#x2753;
+see Miro, I have so many unanswered questions here... Thing is an `artifact` makes my whole flow/archetype fall out. 
+I'll have to look into this again to see if there are similarities between _Artifact_ stretches. Since `artifact` seldomly occurs alone.
+Now I also have the problem, how to code it. Is it better to use a own code or just a suffix? what exactly is an `àrtifact`?
+Should I code the information wrapped into the artifact and just make it visible this is an artiofact?
+Also (unrelated) I DO KNOW, that having an artifact in the articale does not make it impossible to deliver informative conclusions next to the
+artifact description / give examples that are informative an have conclusion character. So how important is it to code informations behind the artifact? But I do think it is important, bc if there are informations that are like non obvious then there must be a conclusion in the article an i even know where it is - in the artifact. And at that point I can assume that the authors could've written an informative conclusion in the conclusion but chose not to...
+Also this code is in fact similar to the design code. But only in some cases. A i,portant difference is, that design is supposed to be in the _Study description_ while artifacts that could be designs are often found in between conclusions and future work.
+&#x2753; &#x2753; &#x2753; &#x2753; &#x2753;
       
       
 ### &#x1F6A7; 2.7 Headings of Conclusions
 
-      - code `hconclusion`:
-         If the heading of the conclusion-section includes "conclusion".
-      - code `hconclusionS`
-         If the heading of the conclusion-section includes "conclusions".
-      - code `hnoconclusion`
-         If the heading of the conclusion section neither includes "conclusion" nor "conclusion".
-      - suffix `:+`
-         If the heading of the conclusion sections contains somthing different than "conclusion" or "conclusions". 
-         (I.e. "Conclusion and Future Work" would coded as &#x1F6A7; `conclusion:+futurework`)
-      - suffix `:sub`
-         If the conclusion-section isn't only one whole section but a section with subsections. 
+- code `hconclusion`:
+  If the heading of the conclusion-section includes "conclusion".
+- code `hconclusionS`
+   If the heading of the conclusion-section includes "conclusions".
+- code `hnoconclusion`
+   If the heading of the conclusion section neither includes "conclusion" nor "conclusion".
+- suffix `:+`
+   If the heading of the conclusion sections contains somthing different than "conclusion" or "conclusions". 
+   (I.e. "Conclusion and Future Work" would coded as &#x1F6A7; `conclusion:+futurework`)
+- suffix `:sub`
+   If the conclusion-section isn't only one whole section but a section with subsections. 
       
       
 ### 2.8 Less common codes
