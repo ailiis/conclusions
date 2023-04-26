@@ -215,7 +215,7 @@ Also this code is in fact similar to the design code. But only in some cases. A 
       
 &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7;      
 
-### &#x1F517; 2.10 Extra codes (TBD) &#x2753;
+### &#x1F517; &#x2753; durchschauen und anpassen &#x2753;2.10 Extra codes 
 
 These codes can never occur alone, only in conjunction with one of the others.
 They start with a dash to signal this and should be given last. 
@@ -258,7 +258,7 @@ Apply them with your own good judgment and keep in mind that
 "we are gentle in detecting negative aspects".
 
 
-### 2.11 Codes for special circumstances 
+### 2.10 Codes for special circumstances 
 
 - &#x1F517; code `cruft`:  
   This sentence is not part of the abstract.
@@ -274,8 +274,9 @@ Apply them with your own good judgment and keep in mind that
       
       
       
-## Memos
-
-      preselecten wir studien? Weil ienige Studien sind wirklich wirklich schwer zu codieren FirFirRos22 zB und auch AriHadLur22 sind eifnach schlecht geschrieben und man weiß nicht wo den Autoren der Kopf steht beim lesen... sowas würde die Coding arbeit suuuper doll verzögern bzw in die Länge ziehen für einzelne unglückliche studenten. Lösungsvorschlag - Artikel bei denen die abstracts bereits eher schlecht geschrieben wirken weglassen. Denn es kommt ja noch dazu, dass die Studenten selber eher nicht geübt sind viele wissenschaftliche Artikel zu lesen, was sie eh schon veralngsamt. 
-Und wenn ich dann kleine blöcke an chrakterisierungen gefunden habe, bin ich mir sicher diese gibt es in solchen artikeln kaum oder nur sehr sehr schwer erkennbar. 
-Mir ist beim Coden auf jeden Fall aufgefallen, dass solche Codes wie "unsinnige Grammatik" "unlogische Formulierung" etc nur selten einzeln in Artikeln auftreteten, sondern meist sehr häufig in ein einem Artikel oder garnicht. Dann kann ein solcher Artikel auch durchaus mal fast einen ganzen Tag benötigen um gecoded zu werden, während sonst 5 in der Zeit geschafft werden....
+## Memo
+         
+Wie werden Studien preselected?
+- Nach design/no design und auch nach schreibweise? oder gibt es eine option sehr schlecht geschriebene artikel wegzulassen für die studenten des kurses?
+- Habe die Erfahrung gemacht, dass sehr schlecht formulioerte Artikel auch einen halben Tag brauchen können (FirFirRos22, AriHadLur). Da die Studenten je nachdem eh eher ungeübt im wissenschaftl. Artikel lesen sind macht es das nicht unbedingt besser. 
+- weiterer Punkt, ich habe codes wie `unlogischer satz` oder `grammtatik` (...die sich mir nciht erschließt) und damit beim lesen behindert. Solche Codes treten selten einzeln in Artikeln auf, sondern meist sehr oft in ein einem einzelnen Artikel. Das macht die Lese- und Codier-Erfahrung unschön.
