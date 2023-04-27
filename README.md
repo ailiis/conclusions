@@ -78,17 +78,18 @@ a different code for it. Also, keep the exceptions in mind.
 
 ### 2.2 Core codes for the turning points
 
-&#x1F517;From _Introduction_ to _Study Description_:
+From _Introduction_ to _Study Description_:
 - code `objective`:  
-  one or more of this work's 
+  &#x1F517;one or more of this work's 
   top-level research goals,
   specific top-level research interests, or
-  top-level research questions.  
+  top-level research questions.  &#x1F517;
   Objectives sentences often contain material that is ambiguous as goal-or-method
-  or as goal-or-design. In those cases, assign two codes only if there is no 
-  method (or design) information elsewhere in the abstract.
+  or as goal-or-design. &#x1F517;In those cases, assign two codes only if there is no 
+  method (or design) information elsewhere in the abstract.&#x1F517;
   If the method (or design) information is too specific and concrete to be a goal,
   assign two codes in any case.
+   If a study does a SLR this already counts as obhective.
 
 From _Study Description_ to _Outlook_:
 - code `conclusion`:  
