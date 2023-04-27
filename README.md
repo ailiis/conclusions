@@ -16,6 +16,10 @@ Sometimes there are two of them around one sentence, the sentence inside these s
 
 ## 2. Codebook: Codes for sentences
 
+&#x1F4CC;I need to reduce my number of suffixes and assign levels of importance to them.&#x1F4CC; Suffixes are harder to use than Codes because the are omnipresent and would have to be remembered constantly. This is hard. To make the use easier I can make suffixes mandatory or optional. optional Suffixes are not there for quantitative analysis but to collect examples. I have to mark mandatory and optional suffixes.
+
+&#x1F4CC;Too much Codes&#x1F4CC; I have too many codes, the amount I have makes it harder to learn all the codes and use them correctly. And most importantly the more codes we use, the lower the intercoder agreement? (was war der korrekte begriff)? will be. To reduce my codes, I'll have to differentiate between codes that will be important for the qualitative evaluation of conclusions and codes that are only there to let me grasp the structure of conclusions better, but do not influence the qualitative evaluation of coding.
+
 
 ### 2.1 The conclusion-sections commmon flow <>
 
@@ -272,6 +276,8 @@ Apply them with your own good judgment and keep in mind that
   It must always eventually be replaced with a proper code.
 - code `new`:
   Use this code for sentences where you think a new code is needed. Note the needed code below in the comments.
+- code `I-give-up`:
+  Use this code for sentences that you just don't understand, because they are poorly written. Maybe because of confusing grammar or wording. 
       
       
       
