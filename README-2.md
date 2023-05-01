@@ -164,22 +164,7 @@ Also this code is in fact similar to the design code. But only in some cases. A 
 &#x2753; &#x2753; &#x2753; &#x2753; &#x2753;
       
       
-### &#x1F6A7;Benötige ich die wirklich? Und selbst wenn, diese lassen siche einfahc auch nachträglich nachziehen...weglassen?&#x1F6A7; 2.7 Headings of Conclusions
-
-- code `hconclusion`:
-  If the heading of the conclusion-section includes "conclusion".
-- code `hconclusionS`
-   If the heading of the conclusion-section includes "conclusions".
-- code `hnoconclusion`
-   If the heading of the conclusion section neither includes "conclusion" nor "conclusion".
-- suffix `:+`
-   If the heading of the conclusion sections contains somthing different than "conclusion" or "conclusions". 
-   (I.e. "Conclusion and Future Work" would coded as &#x1F6A7; `conclusion:+futurework`)
-- suffix `:sub`
-   If the conclusion-section isn't only one whole section but a section with subsections. 
-      
-      
-### 2.8 Less common codes
+### 2.7 Less common codes
 
 - code `limitation` (eig nur in genau einem Dokument vorgekommen...so wie related work nur als neutral related work in einem dokument vorkommt - gibts da ne ander lösung):  
   &#x1F517;Information about limitations, threats to validity, and the like of the study or its results. If seen, typically after `conclusion`.
@@ -193,7 +178,7 @@ Also this code is in fact similar to the design code. But only in some cases. A 
   A sentence which exists to make the articles results seem better or more relevant. (I.e. compare it with previous studies that did worse.)
       
       
-### 2.9 Suffixes 
+### 2.8 Suffixes 
 
 - suffix `:t`:  
   A teaser `:t` is a superficial description which lets the reader know of the existence of some information,
@@ -212,7 +197,7 @@ Also this code is in fact similar to the design code. But only in some cases. A 
       
 &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7;      
 
-### &#x1F517; &#x2753; durchschauen und anpassen &#x2753;2.10 Extra codes 
+### &#x1F517; &#x2753; durchschauen und anpassen &#x2753;2.9 Extra codes 
 
 These codes can never occur alone, only in conjunction with one of the others.
 They start with a dash to signal this and should be given last. 
