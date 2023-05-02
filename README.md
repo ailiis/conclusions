@@ -175,38 +175,39 @@ Also this code is in fact similar to the design code. But only in some cases. A 
   This stands for "defensive". It is used on sentences which deny generalizations or play down results as "minimal".
 - &#x2753; code `justification`:
   A sentence which exists to make the articles results seem better or more relevant. (I.e. compare it with previous studies that did worse.)
-- code `teaser`:
+- &#x1F440;code `teaser`:
   If authors describe some kind of information, but don't explain the information itself or give an example in the conclusion section.
+  A teaser `:t` is a superficial description which lets the reader know of the existence of some information,
+  but does not reveal the information in the conclusion-section itself.
   &#x1F6A7;Depending on the accuracy with which the location of the teasers is given I'd like to assign a code or suffix. I'm not sure if there are two or three levels: the highest accuracy (`-direct`) could be the name of a new theory, a pointer to some section or a pointer to some table - something that is easy to find in the document. The lowest accuracy (`-no_pointer`) would be that there is no pointer given (f.e. "We have found out X."). Now, I am not sure if the in betweens are needed (but I've seen them quite often actually). These often look like "We documented X in our study/guide" - this refers to some section rather than a single point, to find the info the reader probably has to search through the pointed section.&#x1F6A7;
-         Teasers often overlap with artifacts.
+         Often found when `artifacts` are described. (&#x1F6A7; or the conclusion is treated as a summary of the paper)
   
       
       
 ### 2.8 Suffixes 
 
-- suffix `:t`:  
-  A teaser `:t` is a superficial description which lets the reader know of the existence of some information,
-  but does not reveal the information in the conclusion-section itself.
-  Often found when `artifacts` are described. (&#x1F6A7; or the conclusion is treated as a summary of the paper)
-- suffix `:x`:
-  This marks a unexplained abbreviation. Unexplained means it is not explained or written out in the conclusion-section itself.
-- suffix `:y`:
-  This marks a explained abbreviation. Explained means it is explained or written out in the conclusion-section itself.
-- &#x2753; suffix `:raise importance`:
-  Not sure if i need this....
-- &#x2753; suffix `:explanation of prev/foll`:
-  If a sentence gives more information to the topic of a a nerby sentence, like details, definitions or background informations.
+- suffix `:0` (for `teaser` and `results`):
+  There is information in this sentence which makes us think this could've been a conclusion, there are two options why.
+  One option is that the generalization step is missing, meaning all informations are there but the sentence is too specific.
+  The other option is that there are informations teasered which seem very likely to have conclusion character. 
+  &#x1F6A7; Would it be a good idea to have different suffixes for those cases? Since they should also be viewed differently in the final analysis: 
+         A missing generalization may mean the authors did not want to take any risk,
+         while a teaser may mean the authors did not see the conclusion as a place to put conclusions into.&#x1F6A7;
+- suffix `:unexplained` or `explained`:
+  These mark an unexplained/explained abbreviation. Unexplained means it is not explained or written out in the conclusion-section itself.
+  Explained means it is explained or written out in the conclusion-section itself.
+- &#x2753; suffix `:explanation_sentence`:
+  If a sentence gives more information to the topic of a a nearby sentence, like details, definitions or background informations.
   If a sentence is assigned this suffix, it is very likely that the code is the same as the sentence it gives extra information for.
-      
-      
-&#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7; &#x1F6A7;      
+  This suffix is more a coding helper than relevant for the later analysis. It does not need to be coded for every occurence.
+       
 
-### &#x1F517; &#x2753; durchschauen und anpassen &#x2753;2.9 Extra codes 
+### 2.9 Extra codes 
 
 These codes can never occur alone, only in conjunction with one of the others.
 They start with a dash to signal this and should be given last. 
 
-- code `-hype`:  
+- &#x1F517;code `-hype`:  
   The sentence praises the work beyond what a factual statement might state.
   The code does not talk about the truth of the statement (which is often difficult
   to judge from the abstract alone), but about the tone in which
@@ -215,30 +216,18 @@ They start with a dash to signal this and should be given last.
   only emphasized ones do ("This is tremendously helpful because...").
   "very" does not count as hype.
   The most common places for this to occur are 
-  `result`, `conclusion`, `fposs`, `need`, `method`.  
-- code `-ignorediff`:  
+  &#x1F4CC;`result`, `conclusion`, `fposs`, `need`, `method`.  
+- &#x1F517;code `-ignorediff`:  
   If the script flags a coding discrepancy that, after discussion, you and your fellow coder
   agree should be left in (because the two codings represent two different reasonable interpretations),
   add this code in one (and only one) of the codings to mark the discrepancy as resolved.
-- code `-incredible`:  
-  The sentence makes a statement that is very hard to believe, even after considering
-  possible information that the reader of the abstract does not have.
-  The most common places for this to occur are 
-  `result`, `summary`, `conclusion`.  
-- code `-problemstmt`:  
-  The sentence formulates a statement of a problem to be solved that is more general
-  than the study's `objective`. 
-  Typically only (but then frequently) found in `need` statements.  
-  (This code is for collecting data for a possible future research interest.
-  We only want to find some examples, so not everybody needs to apply this code all the time.
-  Feel free to overlook as many instances as needed to avoid slowing you down.)
 - code `-timid`:  
   Applies to `conclusion` only. 
   To be used when the generalization made is overly vague or small.
 
 In contrast to the sentence classifications, which are intended to be objective
 (hence the use of two coders and the use of `-ignorediff` where objectivity reaches its limits),
-the codes `-hype`, `-incredible`, and `-timid` are optional additional attributes
+the codes `-hype`, and `-timid` are optional additional attributes
 that are considered subjective. 
 Apply them with your own good judgment and keep in mind that
 "we are gentle in detecting negative aspects".
