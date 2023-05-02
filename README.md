@@ -166,16 +166,20 @@ Also this code is in fact similar to the design code. But only in some cases. A 
       
 ### 2.7 Less common codes
 
-- code `limitation` (eig nur in genau einem Dokument vorgekommen...so wie related work nur als neutral related work in einem dokument vorkommt - gibts da ne ander lösung):  
+- code `limitation` &#x1F440;nur in genau einem Dokument ... (wie related work als absatz auch)- gibts da ne andere lösung&#x1F440;:  
   &#x1F517;Information about limitations, threats to validity, and the like of the study or its results. If seen, typically after `conclusion`.
 - &#x1F517; code `resourcepointer`:  
   A reference to a concrete external resource such as 
-  a software artifact, materials package, data package, appendix,
-  or similar item.
+  a software artifact, materials package, data package, appendix or similar item.
 - &#x1F6A7; code `defensive` or suffix `:def`:  
   This stands for "defensive". It is used on sentences which deny generalizations or play down results as "minimal".
 - &#x2753; code `justification`:
   A sentence which exists to make the articles results seem better or more relevant. (I.e. compare it with previous studies that did worse.)
+- code `teaser`:
+  If authors describe some kind of information, but don't explain the information itself or give an example in the conclusion section.
+  &#x1F6A7;Depending on the accuracy with which the location of the teasers is given I'd like to assign a code or suffix. I'm not sure if there are two or three levels: the highest accuracy (`-direct`) could be the name of a new theory, a pointer to some section or a pointer to some table - something that is easy to find in the document. The lowest accuracy (`-no_pointer`) would be that there is no pointer given (f.e. "We have found out X."). Now, I am not sure if the in betweens are needed (but I've seen them quite often actually). These often look like "We documented X in our study/guide" - this refers to some section rather than a single point, to find the info the reader probably has to search through the pointed section.&#x1F6A7;
+         Teasers often overlap with artifacts.
+  
       
       
 ### 2.8 Suffixes 
