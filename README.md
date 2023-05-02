@@ -21,7 +21,7 @@ Sometimes there are two of them around one sentence, the sentence inside these s
 &#x1F4CC;Too much Codes&#x1F4CC; I have too many codes, the amount I have makes it harder to learn all the codes and use them correctly. And most importantly the more codes we use, the lower the intercoder agreement? (was war der korrekte begriff)? will be. To reduce my codes, I'll have to differentiate between codes that will be important for the qualitative evaluation of conclusions and codes that are only there to let me grasp the structure of conclusions better, but do not influence the qualitative evaluation of coding.
 
 
-### 2.1 The conclusion-sections commmon flow <>
+### 2.1 The conclusion-sections flow 
 
 Conclusion-sections are similar to the abstracts archetype, the sequence of stretches is similar, but the occurence of stretches is different. 
 
@@ -30,48 +30,45 @@ The following codes will be defined in detail in subsequent sections.
 The common flow: 
 
 1. A conclusion may consist of three parts, in this order:
-   _Introduction_, _Study Description_, and _Outlook_. 
+   _Introduction_, _Study Description_, _Outcome_ and _Outlook_. 
    _Introduction_ and _Study Description_ are often missing, they are roughly seen in every 5th article.
-   It is rather rare to have all three parts in one conclusion.
-2. Two turning points connect the three parts:
-   - A statement of the study goals (`objective`) connects _Introduction_ to _Study Description_.
+   It is rare to have all stretches in a single conclusion.
+2. &#x1F440;Turning points connect the parts:
+   - &#x1F440;A statement of the study goals (`objective`) connects _Introduction_ to _Study Description_ or _Outcome_ .
+     _Introduction_ always ends into an `objective`.
+     _Study Description_ always starts with an `objective`.
+     <there is almost never an objective without intro or descr - ausnahmen sind AhmMerBa und BesMarBos>
      Sometimes the `objective` is described in several connected sentences.
-   - A generalizing statement ("take-home message", `conclusion`) 
-     connects _Study Description_ to _Outlook_.
-     There are almost never `conclusion` sentences that follow each other.
+     In very rare cases `objective` occurs without connection to _Introduction_ or _Study Description_, but always at the start of the conclusion section 
+     and is followed by _Outcomes_.
+   - &#x1F6A7;not always true&#x1F6A7;A generalizing statement ("take-home message", `conclusion`) 
+     connects _Study Description_, _Outcomes_ and _Outlook_.
+     There are almost never `conclusion` sentences that follow each other directly.
      In very seldom cases there is no `conclusion`.
-3. The _Introduction_ first introduces the topic area of the study and what is known (`background`)
-   and then seldomly points out a gap in knowledge (`gap`) or 
-   postulates a need for a certain research (`need`).
+3. The _Introduction_ first introduces the topic area of the study and what is known
+   and then seldomly points out a gap in knowledge (`background`).
 4. For an empirical article (which are the only ones we are looking at), the _Study Description_ often begins with
    method description (`method`), followed by results description (`result`).
- 5. _Outlook_ talks about future research and states 
+5. &#x1F6A7;_Outcome_ is a mixup of knowledge gained as a result of the study.
+   This includes `result`, `conclusion`, `artifact`, `teaser` and any of the codes in _Outlook_.
+   This stretch at its minimum consists of at least one `conclusion` or soemthing that coul've been a conclusion (`:0`).
+    A `result` in this position typically explains a conclusion.
+   Sometimes `result` is found in _Outlook_ and most of the times this means the authors intended a "take-home-message",
+   but did not take the  last step to generalize and make it a `conclusion`.
+   Lists of contributions are always a _Outcome_ stretch and are typically a mix of all codes with no certain structure. <FloMorZha und BalRal>
+ 6. &#x1F6A7;_Outlook_ talks about future research and states 
    what could now be done (`fposs`, for future possibilities),
    what should now be done (`fneed`),
    what will most definetly happen (`fwill`)
-   what the authors themselves intend to do (`fwork`), or
-   what is still not known (`fgap`).
-   Additionally there can be `conclusion`s found in between future research. CHECK (sometimes its hard to differentiate betw conclusion and fneed)
+   what the authors themselves intend to do (`fwork`).
+   Additionally there can be `conclusion`s found in between future research. &#x1F4CC;CHECK (sometimes its hard to differentiate betw conclusion and fneed)
    Several of these may occur, in no particular order. 
    This stretch always ends the conclusions. There is only one exception when _Outlook_ does not end the conclusion:
    If the conclusion has multiple subsections then _Outlook_ may be found in a seperate subsection.
  
 
-**exceptions to the flow**: Lists, `artifact` and `result`. 
-- Lists are often introduced as "contributions". Typically these are a mix of outcomes(`result`,`conclusion` and _Outlook_ codes) with no certain structure. <FloMorZha und BalRal>
-- &#x1F4CC; An `artifact` can be a guide, a taxonomy, a method. If it is a document, it is autonomous from the article. `artifact` typically occur after _Introduction_ and _Study Description_.
-  The content of an `artifact` is often only described in a superficial way (meaning no actual learnings are explained, `teaser`).
-  If an `artifact` is described the above flow is no longer working until the description part is over.
-- `result` is sometimes seen out of _Study Description_. 
-   Sometimes `result` slides into `conclusion` and makes the turning point longer. 
-   A `result` in this position typically explains a conclusion.
-   Sometimes `result` is found in _Outlook_ and most of the times this means the authors intended a "take-home-message",
-   but did not take the  last step to generalize and make it a `conclusion`.
-
-
 **The flow guides the coding**: During coding, we will expect the next sentence
-to be either part of the same stretch or the beginning of one
-that the archetype describes as a possible successor.  
+to be either part of the same stretch or the beginning of one possible successor described in the flow.  
 Only if the next sentence clearly defies any such interpretation will we consider
 a different code for it. Also, keep the exceptions in mind.
 
@@ -153,7 +150,9 @@ The three codes `fposs`,`fneed`,`fwill` act like different confidence levels, co
       
 ### &#x2753; 2.6 Special code/stretch `artifact`
          
-&#x2753; &#x2753; &#x2753; &#x2753; &#x2753;
+- &#x1F4CC; An `artifact` can be a guide, a taxonomy, a method. If it is a document, it is autonomous from the article.
+  The content of an `artifact` is often only described in a superficial way (meaning no actual learnings are explained, `teaser`).
+- &#x2753; &#x2753; &#x2753; &#x2753; &#x2753;
 see Miro, I have so many unanswered questions here... Thing is an `artifact` makes my whole flow/archetype fall out. 
 I'll have to look into this again to see if there are similarities between _Artifact_ stretches. Since `artifact` seldomly occurs alone.
 Now I also have the problem, how to code it. Is it better to use a own code or just a suffix? what exactly is an `àrtifact`?
