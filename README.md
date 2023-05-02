@@ -27,7 +27,7 @@ Conclusion-sections are similar to the abstracts archetype, the sequence of stre
 
 The following codes will be defined in detail in subsequent sections.
 
-The common flow: 
+&#x1F440;The (maximum) pattern: 
 
 1. A conclusion may consist of three parts, in this order:
    _Introduction_, _Study Description_, _Outcome_ and _Outlook_. 
@@ -66,6 +66,17 @@ The common flow:
    This stretch always ends the conclusions. There is only one exception when _Outlook_ does not end the conclusion:
    If the conclusion has multiple subsections then _Outlook_ may be found in a seperate subsection.
  
+&#x2753;**Possible patterns of conclusion sections:**&#x2753;
+   - here are my outcomes!:
+     The section starts directly with the _Outlook_ and focuses solely on those. 
+     The section may start with _Introduction_ and give informations that make the following conclusions easier to understand.
+   - like abstract/summary: 
+     Has every stretch in the section, but only talks about each briefly. 
+     Conclusions are ons-two sentences at most and are not more in focus than the other informations.
+     Also it is quite similar to the abstract itself.
+   - lure the reader in: (eig eher ein gedankenmodell, als eine spezielle art )
+     This type of conclusion typically has a lot of `teasers` and few informations to take home. 
+   
 
 **The flow guides the coding**: During coding, we will expect the next sentence
 to be either part of the same stretch or the beginning of one possible successor described in the flow.  
@@ -198,7 +209,7 @@ Also this code is in fact similar to the design code. But only in some cases. A 
 - &#x2753; suffix `:explanation_sentence`:
   If a sentence gives more information to the topic of a a nearby sentence, like details, definitions or background informations.
   If a sentence is assigned this suffix, it is very likely that the code is the same as the sentence it gives extra information for.
-  This suffix is more a coding helper than relevant for the later analysis. It does not need to be coded for every occurence.
+  This suffix is more a coding helper than relevant for the later analysis. It does not need to be coded for every occurence and all the time.
        
 
 ### 2.9 Extra codes 
