@@ -1,5 +1,7 @@
 # Conclusions Master Thesis - CodeBook.alpha - testing the PR
 
+&#x1F517; &#x1F517; &#x1F517; &#x1F517; &#x1F517; &#x1F517; &#x1F517; &#x1F517; &#x1F517; &#x1F517;
+
 Smileys are used in front of the sentence/paragraph they should signalise something for. 
 Sometimes there are two of them around one sentence, the sentence inside these signs is a ToDo or Memo for the task, but what follows the second smiley then is still the sentence or paragraph in question.
 
