@@ -118,7 +118,7 @@ From _Study Description_ to _Outlook_:
    
 ### 2.3 Core codes for _Introduction_
 
-- &#x1F440;rename intro indtroduction? bc its a fusion of all introduction codes?&#x1F440; code `background`:  
+- Rename intro indtroduction? bc its a fusion of all introduction codes?&#x1F440; code `background`:  
   Information about the larger topic area of the work, the state-of-the-art, definitions, related work as motivation,
   the problem to be solved and what is known in general.
   Sometimes also about what was not known before the study and what research needs to be done.
